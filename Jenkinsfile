@@ -7,4 +7,8 @@ node {
         sh 'npm run serve'
     stage 'build prject'
         sh 'npm run build'
+    tools {nodejs "node"}
+
+
+
 }
